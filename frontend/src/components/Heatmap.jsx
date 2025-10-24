@@ -331,7 +331,7 @@ const Heatmap = ({
           >
             {candidates.map((cand) => (
               <option key={cand.id} value={cand.id}>
-                {cand.id} • {cand.name}
+                {cand.name}
               </option>
             ))}
           </select>
