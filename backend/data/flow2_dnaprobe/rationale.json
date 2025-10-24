@@ -1,0 +1,13 @@
+{
+  "top5": [
+    {"id": "D12", "why": "Strong hybridization signal even at 4°C; minimal loss through pH 7.6.", "watch": "Monitor for Mg2+ precipitation at >10 mM."},
+    {"id": "D03", "why": "Locked backbone keeps duplex tight across the neonatal panel temps.", "watch": "Slightly slower anneal at 37°C."},
+    {"id": "D07", "why": "Buffer C formulation ready; handles mild pH swings.", "watch": "Add Mg2+ for max signal."},
+    {"id": "D08", "why": "Cold-room boosted chemistry; excels at 4–10°C.", "watch": "Warm-up above 30°C reduces signal."},
+    {"id": "D02", "why": "Stabilized tail keeps newborn alleles readable.", "watch": "Watch pH >7.4."}
+  ],
+  "suggestions": [
+    "For newborn screening, stage D12/D03 with 5 mM Mg2+ and pre-chill plates to 8°C.",
+    "Hold probes at pH 6.8–7.2; refresh buffers weekly for maximum signal." 
+  ]
+}

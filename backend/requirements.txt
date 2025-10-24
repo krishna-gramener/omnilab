@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+rdkit-pypi
+propka
+scipy
+numpy
+python-multipart

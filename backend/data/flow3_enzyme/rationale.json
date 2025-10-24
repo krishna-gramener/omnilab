@@ -1,0 +1,13 @@
+{
+  "top5": [
+    {"id": "E08", "why": "Wide stability window across 4–25°C with low pH drift.", "watch": "Slight loss beyond pH 8.5."},
+    {"id": "E06", "why": "Shipping friendly formulation keeps activity above 0.88 average.", "watch": "Track viscosity at low temps."},
+    {"id": "E10", "why": "Cold-chain ready mutant; retains >0.85 through 25°C.", "watch": "Aggressive mixing can denature."},
+    {"id": "E02", "why": "Cold-adapted backbone tolerates 4°C storage.", "watch": "Monitor for phosphate creep."},
+    {"id": "E04", "why": "Stabilized mutant stays flat through pH 8.0.", "watch": "Avoid >25°C exposure."}
+  ],
+  "suggestions": [
+    "Pair E08/E06 with phosphate 30–60 mM; keep transit under 48 h at 25°C.",
+    "Hold assays at pH 7.2–8.0 and stage cold-pack refresh every 36 h." 
+  ]
+}

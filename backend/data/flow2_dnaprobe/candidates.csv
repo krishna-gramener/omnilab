@@ -1,0 +1,13 @@
+id,name,smiles,chemotype,notes
+D01,Probe Alpha,C1=NC=NC(=N1)N,ssDNA,"Baseline clinical probe"
+D02,Probe Beta,CC1=NC=NC(=N1)N,ssDNA,"Stabilized tail"
+D03,Probe Gamma,C1=CC(=O)NC(=O)N1,ssDNA,"Paracetamol-tagged backbone"
+D04,Probe Delta,NC1=NC=NC(=N1)N,ssDNA,"High-affinity core"
+D05,Probe Epsilon,C1=NC=N[C](=N1)N,ssDNA,"Balanced GC content"
+D06,Probe Zeta,NC1=NC(=O)N=CN1,ssDNA,"Mismatch tolerant"
+D07,Probe Eta,C1=NC2=NC=NC(=N2)N1,ssDNA,"Buffer C ready"
+D08,Probe Theta,CN1C(=O)N=CN1,ssDNA,"Low-temp boosted"
+D09,Probe Iota,C1=NC(=O)N=CN1,ssDNA,"Fast hybridization"
+D10,Probe Kappa,C1=NC=NC(=O)N1,ssDNA,"Mg2+ responsive"
+D11,Probe Lambda,C1=NC(=N)N=CN1,ssDNA,"Legacy reference"
+D12,Probe Mu,C1=NC2=NC=NC(=N2)N1,ssDNA,"Newborn screen focus"

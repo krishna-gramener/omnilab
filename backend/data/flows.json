@@ -1,0 +1,17 @@
+[
+  {
+    "id": "flow1_antibody",
+    "name": "Antibody kit for hot/humid markets",
+    "desc": "Rank antibody variants across pH 6.8–8.2 and 25–45°C; pick top-5 robust for hot regions."
+  },
+  {
+    "id": "flow2_dnaprobe",
+    "name": "DNA probe for newborn screening",
+    "desc": "Hybridization robustness across pH 6.5–7.6 and 4–37°C; evaluate buffer tweaks."
+  },
+  {
+    "id": "flow3_enzyme",
+    "name": "Enzyme assay for cold-chain shipments",
+    "desc": "Enzyme stability across pH 7.0–8.5 and 4–25°C; suggest phosphate buffer range."
+  }
+]

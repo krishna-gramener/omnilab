@@ -1,0 +1,73 @@
+Reagent Robustness Simulator — Presenter Script
+===============================================
+
+Global Preflight
+----------------
+- Launch backend: `make demo-on` (chem ops mocked but RDKit-ready). Use `make demo-propka` if PROPKA installed.
+- Start frontend: Vite dev server opens http://localhost:5173.
+- Verify TopBar badge reads “Azure ML Preflight: …” to confirm active chem modules.
+- Turn on Demo Mode (TopBar) so scripted buttons stay visible; tour CTA optional for first-time audiences.
+
+Flow 1 — Antibody Kit (Hot/Humid Markets)
+----------------------------------------
+What to show:
+1. Ensure “Antibody kit for hot/humid markets” tab is selected; call out the banner “Why it matters” message.
+2. Hit Demo Step **Load Baseline** (or narrative button) to anchor C12 at #1.
+3. Play the binding wobble briefly, then move the temperature slider sweep to 45 °C.
+4. Trigger Demo Step **Simulate Hot Day (45 °C)** — heatmap pulses, leaderboard re-ranks, Inspector highlights heat tolerance.
+5. Press the **37 °C Sweep** button once to call `/api/simulate`; reference the dock score + RMSD box along with MAC usage units.
+6. Use **Compare ref** to overlay the legacy curve; note Δ values in the tooltip.
+7. Mention shipping advice: run Demo Step **Shipping Advice** to surface rationale note and open Wet-lab Handoff to outline next steps.
+
+What to change:
+- Temperature slider: lock min at 37 °C, max at 45 °C to emphasize top-end stability.
+- Toggle What-If ON (if off) so Scenario Ranking chips appear.
+
+Talking points:
+- C12 and C10 stay above 0.85 across 25–45 °C thanks to phosphate window; simulated chem call notes RDKit protonation + docking stub.
+- Stress azure-ready preflight: badge indicates mocked docking but real RDKit path.
+- Conclude by opening **Show Data** > `heatmap.json` to prove inputs.
+
+Flow 2 — DNA Probe (Newborn Screening)
+--------------------------------------
+What to show:
+1. Switch to “DNA probe for newborn screening”. Run Demo Step **Load Baseline** (note updated banner copy).
+2. Highlight low-temp performance by narrowing temp slider to 4–25 °C; Inspector change table logs scenario avg jump.
+3. Trigger Demo Step **Buffer Tweak (Mg²⁺ ↑)** — note leaderboard deltas (Mg-compatible probes rise) and hover the Mg²⁺ chip to show assay variability disclaimer.
+4. Perform **37 °C Sweep** while selected candidate = D12 to narrate runtime simulation (mention boost still respects stub docking).
+5. Flip **Compare ref** to show legacy curve drop-off; call out Δ metrics.
+6. Mention PROPKA badge status (“mocked” vs “real”) when discussing pKa conditioning; use ROI gear to show avoided runs.
+
+What to change:
+- Adjust pH slider to 6.5–7.2 range; call out heatmap dimming outside window.
+- Use Demo Mode Step **Low-Temp Stability** to reinforce cold-room scenario.
+
+Talking points:
+- D12 + D03 maintain signal at 4 °C; Mg²⁺ tweak adds 0.03 to compatible variants.
+- Inspector detail: scenario average vs prior value; watch line warns about Mg precipitation.
+- Show Data modal > `scores.json` to tie robustness to displayed ranks.
+
+Flow 3 — Enzyme Assay (Cold-Chain Shipments)
+--------------------------------------------
+What to show:
+1. Select “Enzyme assay for cold-chain shipments”; Demo Step **Load Baseline** (banner sets the cold-chain story).
+2. Emphasize shipping risk: run Demo Step **Lost Cold Chain (10→25 °C)**; heatmap animates via sweep, leaderboard deltas highlight E08/E06.
+3. Use temperature slider to mimic re-chilled scenario (4–18 °C) and discuss Scenario Ranking swap.
+4. Hit **37 °C Sweep** to demonstrate chem simulation even when out-of-range (score drops, RMSD climbs).
+5. Toggle **Compare ref** to show legacy lot falling off above 18 °C.
+6. Demo Step **Spec Sheet Draft** to show quick copy for documentation and share the Wet-lab Handoff list.
+
+What to change:
+- Toggle What-If off/on to compare baseline vs scenario ranking in one click.
+- Optionally adjust pH slider to 7.2–8.0 to mirror spec recommendation.
+
+Talking points:
+- Caffeine-tagged E08 holds >0.9 until 25 °C; inspector shows hydrogen bond count from runtime call.
+- Badge row: SMILES ✔ / PROPKA status / Docking stub to speak to chemistry provenance.
+- Close with `rationale.json` in Show Data for transparency.
+
+Wrap-up Checklist
+-----------------
+- Mention guided tour is available via “Start tour” for self-service runs.
+- Point out Demo Mode can be toggled off for freestyle exploration.
+- Remind viewers that switching to `make demo-propka` enables real PROPKA if the binary is installed.

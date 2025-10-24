@@ -1,0 +1,14 @@
+[
+  {"id":"E08","robustness":0.92,"rank":1,"sensitivity":{"temp":"low","ph":"low"},"flags":["wide_window","shipping_friendly"]},
+  {"id":"E06","robustness":0.89,"rank":2,"sensitivity":{"temp":"low","ph":"medium"},"flags":["shipping_friendly"]},
+  {"id":"E10","robustness":0.87,"rank":3,"sensitivity":{"temp":"medium","ph":"low"},"flags":["cold_chain_ready"]},
+  {"id":"E02","robustness":0.85,"rank":4,"sensitivity":{"temp":"low","ph":"medium"},"flags":["cold_adapted"]},
+  {"id":"E04","robustness":0.83,"rank":5,"sensitivity":{"temp":"medium","ph":"medium"},"flags":["stabilized_mut"]},
+  {"id":"E12","robustness":0.81,"rank":6,"sensitivity":{"temp":"medium","ph":"medium"},"flags":["pilot_batch"]},
+  {"id":"E03","robustness":0.79,"rank":7,"sensitivity":{"temp":"medium","ph":"low"},"flags":["phosphate_ok"]},
+  {"id":"E05","robustness":0.78,"rank":8,"sensitivity":{"temp":"medium","ph":"medium"},"flags":["fast_turnover"]},
+  {"id":"E09","robustness":0.76,"rank":9,"sensitivity":{"temp":"medium","ph":"medium"},"flags":["buffer_b_ok"]},
+  {"id":"E01","robustness":0.74,"rank":10,"sensitivity":{"temp":"high","ph":"medium"},"flags":["baseline"]},
+  {"id":"E07","robustness":0.72,"rank":11,"sensitivity":{"temp":"high","ph":"medium"},"flags":["low_temp_tuned"]},
+  {"id":"E11","robustness":0.7,"rank":12,"sensitivity":{"temp":"high","ph":"medium"},"flags":["legacy_reference"]}
+]

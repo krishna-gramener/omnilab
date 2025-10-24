@@ -1,0 +1,14 @@
+[
+  {"id":"D12","robustness":0.9,"rank":1,"sensitivity":{"temp":"low","ph":"low"},"flags":["cold_room_ready","wide_window"]},
+  {"id":"D03","robustness":0.88,"rank":2,"sensitivity":{"temp":"low","ph":"medium"},"flags":["locked_backbone"]},
+  {"id":"D07","robustness":0.87,"rank":3,"sensitivity":{"temp":"medium","ph":"low"},"flags":["buffer_c_ok"]},
+  {"id":"D08","robustness":0.85,"rank":4,"sensitivity":{"temp":"low","ph":"low"},"flags":["cold_boost"]},
+  {"id":"D02","robustness":0.83,"rank":5,"sensitivity":{"temp":"medium","ph":"medium"},"flags":["hinge_stabilized"]},
+  {"id":"D10","robustness":0.81,"rank":6,"sensitivity":{"temp":"medium","ph":"medium"},"flags":["mg2_plus"]},
+  {"id":"D05","robustness":0.79,"rank":7,"sensitivity":{"temp":"medium","ph":"medium"},"flags":["balanced_gc"]},
+  {"id":"D04","robustness":0.78,"rank":8,"sensitivity":{"temp":"medium","ph":"high"},"flags":["high_affinity"]},
+  {"id":"D09","robustness":0.76,"rank":9,"sensitivity":{"temp":"high","ph":"medium"},"flags":["fast_hybrid"]},
+  {"id":"D01","robustness":0.74,"rank":10,"sensitivity":{"temp":"high","ph":"medium"},"flags":["baseline"]},
+  {"id":"D06","robustness":0.72,"rank":11,"sensitivity":{"temp":"high","ph":"medium"},"flags":["mismatch_tolerant"]},
+  {"id":"D11","robustness":0.7,"rank":12,"sensitivity":{"temp":"high","ph":"medium"},"flags":["legacy_reference"]}
+]

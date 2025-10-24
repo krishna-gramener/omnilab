@@ -1,0 +1,13 @@
+{
+  "top5": [
+    {"id": "C12", "why": "Consistent binding across 25–45°C and pH 6.8–8.2; minimal drift.", "watch": "Slight drop >45°C."},
+    {"id": "C07", "why": "Resilient to pH shifts; compatible with Buffer C.", "watch": "Moderate loss above 40°C."},
+    {"id": "C10", "why": "Heat-tolerant variant; stable up to 45°C.", "watch": "Watch pH >8.0."},
+    {"id": "C04", "why": "High affinity clone; strong mid-range stability.", "watch": "Narrower pH window."},
+    {"id": "C08", "why": "Plays well with Buffer A; good shipping profile.", "watch": "Monitor at 45°C."}
+  ],
+  "suggestions": [
+    "For hot regions, prefer C12/C10 with phosphate buffer 20–50 mM.",
+    "Avoid storage >45°C; target pH 7.2–7.8 for widest window."
+  ]
+}
